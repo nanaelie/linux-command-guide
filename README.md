@@ -22,7 +22,7 @@ Ce dépôt contient une collection organisée de commandes Linux courantes, clas
 Aucune installation n'est nécessaire. Vous pouvez simplement cloner ce dépôt sur votre machine locale :
 
 ```bash
-git clone https://github.com/nanaelie/commandes-linux.git
+git clone https://github.com/nanaelie/linux-command-guide.git
 ```
 ## Commandes de base
 
