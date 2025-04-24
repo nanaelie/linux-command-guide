@@ -1,8 +1,7 @@
-- `virtualbox`:  x86 virtualization solution - base binaries
- This package provides the binaries for VirtualBox. Either the virtualbox-dkms
- kernel modules needed for virtualbox. A graphical user interface for
- VirtualBox is provided by the package virtualbox-qt.
-- `docker`: Docker image and container command line interface
+| Tool                        | Description                  |
+| --------------------------- | ---------------------------- |
+| `virtualbox`                |  x86 virtualization solution - base binaries. This package provides the binaries for VirtualBox. Either the virtualbox-dkms kernel modules needed for virtualbox. A graphical user interface for VirtualBox is provided by the package virtualbox-qt. |
+| `docker`                    | Docker image and container command line interface |
 - `docker-compose`:  define and run multi-container Docker applications with YAML
 - `docker-containers`: docker-containers
 - `docker-images`: docker-images
