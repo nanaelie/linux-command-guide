@@ -30,11 +30,11 @@ git clone https://github.com/nanaelie/linux-command-guide.git
 Les commandes de base sont les premières que tout utilisateur Linux doit connaître :
 
 ```bash
-    pwd   # Affiche le répertoire de travail actuel.
-    cd    # <chemin> : Change de répertoire.
-    ls    # Liste les fichiers dans un répertoire.
-    mkdir # <nom_du_répertoire> : Crée un nouveau répertoire.
-    rmdir # <nom_du_répertoire> : Supprime un répertoire vide.
+pwd   # Affiche le répertoire de travail actuel.
+cd    # <chemin> : Change de répertoire.
+ls    # Liste les fichiers dans un répertoire.
+mkdir # <nom_du_répertoire> : Crée un nouveau répertoire.
+rmdir # <nom_du_répertoire> : Supprime un répertoire vide.
 ```
 
 ## Développement
@@ -42,11 +42,11 @@ Les commandes de base sont les premières que tout utilisateur Linux doit conna�
 Ces commandes sont utiles pour les développeurs travaillant sur des projets Linux :
 
 ```bash
-    git         # Commandes Git pour le contrôle de version.
-    gcc         # <fichier.c> -o <programme> : Compiler un fichier C.
-    make        # Utiliser des fichiers Makefile pour automatiser les compilations.
-    vim         # Éditeur de texte en mode terminal pour modifier des fichiers.
-    npm install # Installer des dépendances pour un projet Node.js.
+git         # Commandes Git pour le contrôle de version.
+gcc         # <fichier.c> -o <programme> : Compiler un fichier C.
+make        # Utiliser des fichiers Makefile pour automatiser les compilations.
+vim         # Éditeur de texte en mode terminal pour modifier des fichiers.
+npm install # Installer des dépendances pour un projet Node.js.
 ```
 
 ## Gestion de fichiers
@@ -54,11 +54,11 @@ Ces commandes sont utiles pour les développeurs travaillant sur des projets Lin
 Voici des commandes pour manipuler les fichiers et répertoires :
 
 ```bash
-    cp    # <source> <destination> : Copie un fichier ou un répertoire.
-    mv    # <source> <destination> : Déplace ou renomme un fichier ou un répertoire.
-    rm    # <fichier> : Supprime un fichier.
-    rm -r # <répertoire> : Supprime un répertoire et son contenu.
-    touch # <fichier> : Crée un fichier vide.
+cp    # <source> <destination> : Copie un fichier ou un répertoire.
+mv    # <source> <destination> : Déplace ou renomme un fichier ou un répertoire.
+rm    # <fichier> : Supprime un fichier.
+rm -r # <répertoire> : Supprime un répertoire et son contenu.
+touch # <fichier> : Crée un fichier vide.
 ```
 
 ## Réseau
@@ -66,10 +66,10 @@ Voici des commandes pour manipuler les fichiers et répertoires :
 Ces commandes permettent de gérer les connexions réseau sous Linux :
 
 ```bash
-    ping       # <hôte> : Tester la connectivité réseau avec un hôte.
-    ifconfig   # Afficher la configuration des interfaces réseau.
-    netstat    # Afficher les connexions réseau et les ports utilisés.
-    curl       # <url> Récupérer des données depuis une URL.
+ping       # <hôte> : Tester la connectivité réseau avec un hôte.
+ifconfig   # Afficher la configuration des interfaces réseau.
+netstat    # Afficher les connexions réseau et les ports utilisés.
+curl       # <url> Récupérer des données depuis une URL.
 ```
 
 ## Sécurité
@@ -77,10 +77,10 @@ Ces commandes permettent de gérer les connexions réseau sous Linux :
 Les commandes de sécurité permettent de gérer l'accès et la protection du système :
 
 ```bash
-    chmod # Modifier les permissions d'un fichier ou répertoire.
-    chown # Changer le propriétaire d'un fichier ou répertoire.
-    ufw   # Configurer le pare-feu UFW (Uncomplicated Firewall).
-    sudo  # Exécuter des commandes avec les privilèges de l'administrateur.
+chmod # Modifier les permissions d'un fichier ou répertoire.
+chown # Changer le propriétaire d'un fichier ou répertoire.
+ufw   # Configurer le pare-feu UFW (Uncomplicated Firewall).
+sudo  # Exécuter des commandes avec les privilèges de l'administrateur.
 ```
 
 ## Système
@@ -88,11 +88,11 @@ Les commandes de sécurité permettent de gérer l'accès et la protection du sy
 Ces commandes permettent de gérer le système et ses processus :
 
 ```bash
-    ps       # Affiche les processus en cours d'exécution.
-    top      # Affiche les processus en temps réel.
-    df       # Affiche l'utilisation du disque.
-    free     # Affiche l'utilisation de la mémoire.
-    shutdown # Arrêter ou redémarrer le système.
+ps       # Affiche les processus en cours d'exécution.
+top      # Affiche les processus en temps réel.
+df       # Affiche l'utilisation du disque.
+free     # Affiche l'utilisation de la mémoire.
+shutdown # Arrêter ou redémarrer le système.
 ```
 
 ## Virtualisation
@@ -100,9 +100,9 @@ Ces commandes permettent de gérer le système et ses processus :
 Les commandes pour travailler avec la virtualisation sous Linux :
 
 ```bash
-    docker  # Utiliser Docker pour créer et gérer des conteneurs.
-    vagrant # Gérer des environnements virtuels avec Vagrant.
-    virsh   # Commandes pour gérer les machines virtuelles sous KVM.
+docker  # Utiliser Docker pour créer et gérer des conteneurs.
+vagrant # Gérer des environnements virtuels avec Vagrant.
+virsh   # Commandes pour gérer les machines virtuelles sous KVM.
 ```
 
 ## Autre
@@ -110,10 +110,10 @@ Les commandes pour travailler avec la virtualisation sous Linux :
 Cette section contient des commandes diverses qui ne rentrent pas dans les autres catégories mais qui sont tout de même utiles :
 
 ```bash
-    alias    # Créer des raccourcis pour des commandes.
-    history  # Afficher l'historique des commandes.
-    tar -cvf # <archive.tar> <fichiers> : Créer une archive tar.
-    zip      # <archive.zip> <fichiers> : Compresser des fichiers avec zip.
+alias    # Créer des raccourcis pour des commandes.
+history  # Afficher l'historique des commandes.
+tar -cvf # <archive.tar> <fichiers> : Créer une archive tar.
+zip      # <archive.zip> <fichiers> : Compresser des fichiers avec zip.
 ```
 
 ## global
@@ -126,7 +126,7 @@ Si vous souhaitez contribuer à ce projet, vous pouvez :
 
 - Forker le dépôt.
 - Créer une branche pour vos modifications (git checkout -b feature).
-- Committer vos modifications (git commit -am 'Ajout de nouvelles commandes').
+- Committer vos modifications (git commit -m 'Ajout de nouvelles commandes').
 - Push vos modifications (git push origin feature).
 - Ouvrir une pull request.
 
