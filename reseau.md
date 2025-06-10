@@ -5,14 +5,7 @@
 | Tool             | Description |
 | ---------------- | ---------------------- |
 | `arping`         | sends IP and/or ARP pings (to the MAC address). The arping utility sends ARP and/or ICMP requests to the specified host its IP address, or its MAC address. |
-- `avahi-autoipd`:  Avahi IPv4LL network address configuration daemon
- This tool implements IPv4LL, "Dynamic Configuration of IPv4 Link-Local
- Addresses" (IETF RFC3927), a protocol for automatic IP address
-   address mapping using the Avahi daemon
-   address mapping using the Avahi daemon
- fingerprint IP hosts on the local network. It is available for Linux and BSD
- Axel tries to accelerate the downloading process by using multiple
- wget clone (and other console based programs) on byte-critical systems.
+| `avahi-autoipd`  | Avahi IPv4LL network address configuration daemon. This tool implements IPv4LL, "Dynamic Configuration of IPv4 Link-Local Addresses" (IETF RFC3927), a protocol for automatic IP address address mapping using the Avahi daemon address mapping using the Avahi daemon fingerprint IP hosts on the local network. It is available for Linux and BSD Axel tries to accelerate the downloading process by using multiple wget clone (and other console based programs) on byte-critical systems. |
 - `avahi-autoipd.action`: avahi-autoipd action script
  shell/perl scripts and allow more granularity than one has otherwise. It is
   * Clipboard management
