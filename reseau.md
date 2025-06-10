@@ -1,12 +1,10 @@
- Zenity allows you to display GTK+ dialogs from shell scripts; it is a
- Zenity includes a gdialog wrapper script so that it can be used with
- legacy scripts.
-        FIPS 181)
-  * Special parameters to use APG in script
- configuration files, init scripts and support scripts.
-- `arping`:  sends IP and/or ARP pings (to the MAC address)
- The arping utility sends ARP and/or ICMP requests to the specified host
- its IP address, or its MAC address.
+
+# Réseau
+
+
+| Tool             | Description |
+| ---------------- | ---------------------- |
+| `arping`         | sends IP and/or ARP pings (to the MAC address). The arping utility sends ARP and/or ICMP requests to the specified host its IP address, or its MAC address. |
 - `avahi-autoipd`:  Avahi IPv4LL network address configuration daemon
  This tool implements IPv4LL, "Dynamic Configuration of IPv4 Link-Local
  Addresses" (IETF RFC3927), a protocol for automatic IP address
